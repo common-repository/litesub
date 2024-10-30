@@ -1,0 +1,179 @@
+$color-green: #1a9d5a;
+
+.litesub-page {
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+.litesub-box {
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.litesub-home-link {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.litesub-nav-links {
+  float: right;
+  margin-top: 5px;
+  a {
+    margin-left: 2em;
+    font-weight: bold;
+  }
+}
+
+.litesub-logo {
+  vertical-align: middle;
+}
+
+.litesub-btn {
+}
+
+.nav-tabs {
+  a {
+    padding: 5px 10px;
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    background-color: #fff;
+  }
+}
+
+.litesub-container {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.post-entry {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.post-actions {
+  float: right;
+}
+
+.post-action {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+
+  .dashicons {
+    font-size: inherit;
+    padding-top: 3px;
+  }
+}
+
+#selected-post-list {
+  background-color: #f5f5f5;
+  padding: 10px;
+  min-height: 100px;
+
+  .post-entry {
+    .post-action-select {
+      display: none;
+    }
+  }
+}
+
+#candidate-post-list {
+  background-color: #f5f5f5;
+  padding: 10px;
+  min-height: 100px;
+
+  .post-entry {
+    &.selected {
+      .post-action-select {
+        background-color: $color-green;
+        color: #fff;
+      }
+    }
+    .post-action-unselect {
+      display: none;
+    }
+  }
+}
+
+.btn-toggle {
+  .toggle-icon {
+    border-radius: 9px;
+    background-color: #eee;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2px;
+    width: 32px;
+
+    &::before {
+      content: '';
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: #fff;
+    }
+  }
+
+  .text-on {
+    display: none;
+  }
+
+  &.on {
+    .toggle-icon {
+      background-color: $color-green;
+      text-align: right;
+    }
+    .text-on {
+      display: inline-block;
+    }
+    .text-off {
+      display: none;
+    }
+  }
+
+  &.off {
+    .text-on {
+      display: none;
+    }
+    .text-off {
+      display: inline-block;
+    }
+  }
+}
+
+.litesub-paginator {
+  text-align: center;
+  margin-top: 10px;
+  a {
+    margin: 10px 15px;
+  }
+}
+
+#candidate-post-list {
+  .post-action-move-up {
+    display: none;
+  }
+  .post-action-move-down {
+    display: none;
+  }
+}
+
+.link-import-subscribers {
+  float: right;
+  font-size: 14px;
+}
+
+.litesub-center {
+  text-align: center;
+}

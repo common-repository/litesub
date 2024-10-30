@@ -1,0 +1,23 @@
+<h4 style="background-color: #eee; padding: 5px 10px;"><img class="alignnone size-full wp-image-229 alignleft" style="float: left;" src="https://litesub.com/images/logo-32x32.jpg" alt="" width="32" height="32" /><b style="line-height: 20px;">Litesub</b><small style="line-height: 20px; font-weight: normal;">
+do subscriptions with wordpress </small></h4>
+  <h1>How to Send Newsletters with Litesub</h1>
+  <em><span style="color: #808080;">This is a sample newsletter from Litesub, and also a guide on newsletters.</span></em>
+
+  Litesub can help you create newsletters in the same way you publish a post. First, compose a newsletter. Go to<strong> Litesub &gt; Newsletters &gt; Add New.</strong> Use the editor to design your newsletter.
+
+  And you can use shortcode - <strong>litesub_newsletter_posts</strong>, to add your posts into a newsletter. For example,  you can place the shorcode here, like this.
+
+  [litesub_newsletter_posts]
+
+  Then select a few posts in the <strong>Choose your posts to be listed in this newsletter</strong> box, below this editor box. If you save this draft, and click the button <strong>Send a preview newsletter to me</strong>, a preview newsletter will be send to your email address.
+
+  If the newsletter looks great to you and ready to be published, just click <strong>Publish, </strong>and it will be delivered to your subscribers.
+  <p style="background-color: #eee; padding: 5px 10px; font-size: 14px;"><b>tips</b>
+  Litesub will try to show your newsletters with the active Wordpress theme. If you are familiar with HTML &amp; CSS, you edit in text mode and apply more styles or tweaks to your newsletter. For example, add background colors, fonts, button-like links, etc.</p>
+  <strong>Unsubscribe links</strong> will be appended to the bottom of your newsletters, don't worry about it.
+  <p style="text-align: center;">More functionalities and settings are available at our site.</p>
+
+  <div style="text-align: center;"><a style="background-color: #1a9d5a; color: #fff; padding: 5px 40px; font-weight: bold; border-radius: 5px; text-decoration: none;" href="https://litesub.com">Try it now!</a></div>
+  &nbsp;
+
+  Need more help or want more features? Check our <a href="https://litesub.com/wordpress/help">help page</a> or send a mail to <a href="mailto:support@litesub.com">support@litesub.com</a>.

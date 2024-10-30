@@ -1,0 +1,118 @@
+.litesub-page a {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none; }
+
+.litesub-box {
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 10px 20px; }
+
+.litesub-home-link {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold; }
+
+.litesub-nav-links {
+  float: right;
+  margin-top: 5px; }
+  .litesub-nav-links a {
+    margin-left: 2em;
+    font-weight: bold; }
+
+.litesub-logo {
+  vertical-align: middle; }
+
+.nav-tabs a {
+  padding: 5px 10px;
+  border: 1px solid #e5e5e5;
+  border-bottom: none;
+  background-color: #fff; }
+
+.litesub-container {
+  background-color: #fff;
+  padding: 10px; }
+
+.post-entry {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 5px; }
+
+.post-actions {
+  float: right; }
+
+.post-action {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: inline-block; }
+  .post-action .dashicons {
+    font-size: inherit;
+    padding-top: 3px; }
+
+#selected-post-list {
+  background-color: #f5f5f5;
+  padding: 10px;
+  min-height: 100px; }
+  #selected-post-list .post-entry .post-action-select {
+    display: none; }
+
+#candidate-post-list {
+  background-color: #f5f5f5;
+  padding: 10px;
+  min-height: 100px; }
+  #candidate-post-list .post-entry.selected .post-action-select {
+    background-color: #1a9d5a;
+    color: #fff; }
+  #candidate-post-list .post-entry .post-action-unselect {
+    display: none; }
+
+.btn-toggle .toggle-icon {
+  border-radius: 9px;
+  background-color: #eee;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 2px;
+  width: 32px; }
+  .btn-toggle .toggle-icon::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff; }
+.btn-toggle .text-on {
+  display: none; }
+.btn-toggle.on .toggle-icon {
+  background-color: #1a9d5a;
+  text-align: right; }
+.btn-toggle.on .text-on {
+  display: inline-block; }
+.btn-toggle.on .text-off {
+  display: none; }
+.btn-toggle.off .text-on {
+  display: none; }
+.btn-toggle.off .text-off {
+  display: inline-block; }
+
+.litesub-paginator {
+  text-align: center;
+  margin-top: 10px; }
+  .litesub-paginator a {
+    margin: 10px 15px; }
+
+#candidate-post-list .post-action-move-up {
+  display: none; }
+#candidate-post-list .post-action-move-down {
+  display: none; }
+
+.link-import-subscribers {
+  float: right;
+  font-size: 14px; }
+
+.litesub-center {
+  text-align: center; }
